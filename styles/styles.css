@@ -240,6 +240,7 @@ body {
     margin-top: 29px;
     font-size: 1.125rem;
     line-height: 1.75rem;
+    width: 97.5%;
   }
   .main__hero__button {
     padding: 19px 31px 16px 32px;
@@ -258,7 +259,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     -moz-column-gap: 30px;
          column-gap: 30px;
-    row-gap: 56px;
+    row-gap: 80px;
     padding: 0 165px 140px 165px;
   }
   .main__card {
@@ -283,6 +284,10 @@ body {
   .main__card__link {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+  .main__card__image {
+    width: 56px;
+    height: 56px;
   }
   .footer {
     padding: 32px 165px;
