@@ -27,17 +27,25 @@
 
     <main class="main">
       <section class="main__hero">
-        <h1 class="main__hero__heading">Maximize skill, minimize budget</h1>
-        <p class="main__hero__para">
-          Our modern courses across a range of in-demand skills will give you
-          the knowledge you need to live the life you want.
-        </p>
-        <button class="main__hero__button">Get Started</button>
-        <img
-          src="./assets/image-hero-mobile.png"
-          alt=""
-          class="main__hero__image"
-        />
+        <div class="main__hero__content">
+          <h1 class="main__hero__heading">Maximize skill, minimize budget</h1>
+          <p class="main__hero__para">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <button class="main__hero__button">Get Started</button>
+        </div>
+        <picture>
+          <source
+            media="(min-width: 600px)"
+            srcset="./assets/image-hero-tablet.png"
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="./assets/image-hero-desktop.png"
+          />
+          <img src="./assets/image-hero-mobile.png" class="main__hero__image" />
+        </picture>
       </section>
       <section class="card-container">
         <article class="main__card main__card--first">
