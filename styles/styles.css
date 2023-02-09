@@ -292,4 +292,9 @@ body {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+}
+@media (min-width: 1600px) {
+  .main__hero__image {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

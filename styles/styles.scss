@@ -346,3 +346,9 @@ body {
     }
   }
 }
+
+@media (min-width: 1600px) {
+  .main__hero__image {
+    display: none;
+  }
+}
